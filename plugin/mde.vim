@@ -30,4 +30,4 @@ imap <buffer> NN Ñ
 imap <buffer> u: ü
 imap <buffer> U: Ü
 imap <buffer> ?? ¿
-imap <buffer> -- ­
+imap <buffer> -- –
