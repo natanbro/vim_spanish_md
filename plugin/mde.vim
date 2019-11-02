@@ -1,5 +1,4 @@
 " Markdown in spanish
-
 if exists("loaded_spanish_markdown")
     finish
 endif
@@ -10,26 +9,35 @@ setl fileencoding=utf-8
 setl encoding=utf-8
 setl spell
 setl spelllang=es
-setl spellsuggest=best
+setl wrap
+setl paste
+setl textwidth=0
+setl linebreak
+setl breakat=79
+setl breakindent
+setl sw=4
+setl ts=4
 
-imap <buffer> << «
-imap <buffer> >> »
 
-imap <buffer> a' á
-imap <buffer> A' Á
-imap <buffer> e' é
-imap <buffer> E' É
-imap <buffer> i' í
-imap <buffer> I' Í
-imap <buffer> o' ó
-imap <buffer> O' Ó
-imap <buffer> u' ú
-imap <buffer> U' Ú
-imap <buffer> nn ñ
-imap <buffer> NN Ñ
-imap <buffer> u: ü
-imap <buffer> U: Ü
-imap <buffer> ?? ¿
-imap <buffer> !! ¡
-imap <buffer> -- –
+
+imap << «
+imap >> »
+
+imap a' á
+imap A' Á
+imap e' é
+imap E' É
+imap i' í
+imap I' Í
+imap o' ó
+imap O' Ó
+imap u' ú
+imap U' Ú
+imap nn ñ
+imap NN Ñ
+imap u: ü
+imap U: Ü
+imap ?? ¿
+imap !! ¡
+imap -- –
 
